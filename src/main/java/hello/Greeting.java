@@ -27,4 +27,11 @@ public class Greeting {
     public String notUsedMethod(String newcontent){
         return null;
     }
+
+    public String incrementContentWithLenght2(String newcontent) {
+        String noused = "notused";
+        String _nullString = null;
+        content = content + newcontent.length() + newcontent + _nullString.length();
+        return content;
+    }
 }
