@@ -23,4 +23,8 @@ public class Greeting {
         String _nullString = null;
         content = content + newcontent.length() + newcontent + _nullString.length();
         return content; }
+
+    public String notUsedMethod(String newcontent){
+        return null;
+    }
 }
