@@ -19,8 +19,8 @@ public class Greeting {
     }
 
     public String incrementContentWithLenght(String newcontent){
-        String noused = "notused";
-        content = content + newcontent.length()+ newcontent;
-        return content;
-    }
+   String noused = "notused";
+        String _nullString = null;
+        content = content + newcontent.length() + newcontent + _nullString.length();
+        return content; }
 }
