@@ -3,7 +3,7 @@ package hello;
 public class Greeting {
 
     private final long id;
-    private final String content;
+    private String content;
 
     public Greeting(long id, String content) {
         this.id = id;
@@ -16,5 +16,15 @@ public class Greeting {
 
     public String getContent() {
         return content;
+    }
+
+    public String incrementContentWithLenght(String newcontent){
+   String noused = "notused";
+        String _nullString = null;
+        content = content + newcontent.length() + newcontent + _nullString.length();
+        return content; }
+
+    public String notUsedMethod(String newcontent){
+        return null;
     }
 }
