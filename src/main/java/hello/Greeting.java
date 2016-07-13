@@ -28,6 +28,11 @@ public class Greeting {
         return null;
     }
 
+    @Deprecated
+    public String deprecatedMethod(String newcontent){
+        return null;
+    }
+
     public String incrementContentWithLenght2(String newcontent) {
         String noused = "notused";
         String _nullString = null;
